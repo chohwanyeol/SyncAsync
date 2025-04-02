@@ -81,19 +81,4 @@ syncAsync/
 └── ...
 ```
 
----
 
-## ✔️ 앞으로의 확장 실험 아이디어
-
-- 비동기 응답 + 작업 완료 알림 구조 (ex. 응답은 즉시, 처리 상태는 polling)
-- DB 조회 + Redis 캐시 성능 비교 실험
-- JPA N+1 문제 실험 및 fetch join 개선
-- 대량 Insert 성능 비교 (1개씩 vs bulk 처리)
-
----
-
-## 📌 참고
-
-- `@Async` 사용 시 `@EnableAsync` 필수
-- Swagger는 `springdoc-openapi` 사용
-- 쓰레드 동작 확인을 위해 `Thread.currentThread().getName()` 로그 출력함
