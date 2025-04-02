@@ -8,7 +8,7 @@ Spring Boot 기반으로 동기(Sync)와 비동기(Async) 방식의 REST API 응
 ## ✅ 프로젝트 정보
 
 - **프로젝트명**: syncAsync
-- **기술스택**: Java 21, Spring Boot 3.2, Spring Web, Lombok, Swagger
+- **기술스택**: Java 21, Spring Boot 3.4.4, Spring Web, Lombok, Swagger
 - **실험 목적**: 
   - 동기/비동기 응답 처리 구조의 차이를 이해하고
   - 사용자 응답 흐름과 시스템 처리 병렬성의 차이를 확인함
