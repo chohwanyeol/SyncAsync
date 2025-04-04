@@ -70,19 +70,3 @@ implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.3.0'
 **전체 흐름을 분리하고 시스템의 병렬성과 유연성을 높이는 것**임을 직접 체감할 수 있었다.
 
 ---
-
-## ✍️ 구조 파일 예시
-
-```
-syncAsync/
-├── SyncAsyncApplication.java
-├── controller/
-│   └── TestController.java
-├── service/
-│   └── TestService.java
-├── resources/
-│   ├── application.properties
-└── ...
-```
-
-
